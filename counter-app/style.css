@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+body.active {
+  background-color: #222;
+  color: #fff;
+}
+
+body.active button {
+  background-color: #fff;
+  color: #222;
+}
+
+.theme {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  border: none;
+  outline: none;
+  width: 1.9rem;
+  height: 1.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  background-color: #222;
+  padding: 1.9rem;
+  margin: 0 20px;
+  border-radius: 100%;
+}
+
+.theme.active {
+  background-color: #fff;
+  color: #222;
+}
+
+.counter {
+  text-align: center;
+}
+
+.counter__title {
+  font-size: 7rem;
+}
+
+.counter__buttons {
+  border: none;
+  outline: none;
+  min-width: 3rem;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  background-color: #222;
+  padding: 1rem;
+  margin: 0 20px;
+}
