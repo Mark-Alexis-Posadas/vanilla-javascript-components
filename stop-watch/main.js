@@ -10,6 +10,7 @@ buttons.forEach((button) => {
   button.addEventListener("click", () => {
     if (button.id === "start") {
       // Call updateCount every 1000 milliseconds (1 second)
+
       intervalId = setInterval(updateCount, 10);
     } else if (button.id === "reset") {
       clearInterval(intervalId);
