@@ -10,4 +10,26 @@ body {
   overflow: hidden;
   display: grid;
   place-items: center;
+  transition: all 0.3s linear;
+}
+
+button {
+  border: none;
+  outline: none;
+  min-width: 3rem;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  background-color: #222;
+  padding: 1rem;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 5rem;
 }
