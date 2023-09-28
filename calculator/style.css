@@ -9,7 +9,8 @@ body {
   font-family: "Inter", sans-serif;
   display: flex;
   flex-direction: column;
-  max-width: 1200px;
+  justify-content: center;
+  height: 100vh;
   margin: 0 auto;
 }
 
@@ -21,4 +22,29 @@ input {
   &::placeholder {
     font-family: "Inter", sans-serif;
   }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.calculator-buttons {
+  font-family: "Inter", sans-serif;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgb(99, 99, 253);
+  border: none;
+  width: calc(25% - 30px);
+  padding: 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.calculator-buttons.secondary {
+  background-color: rgb(79, 209, 197);
 }
